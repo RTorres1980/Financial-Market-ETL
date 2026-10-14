@@ -1,0 +1,6 @@
+# Tickers to load and the date range. end_date is optional (defaults to today).
+tickers: [SPY, QQQ, AAPL, MSFT, JPM, TLT]
+start_date: "2024-01-01"
+end_date:
+source: yahoo        # yahoo, or sample for offline runs
+output_dir: output
