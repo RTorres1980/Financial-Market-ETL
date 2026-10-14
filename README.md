@@ -1,5 +1,7 @@
 # Financial Markets ETL
 
+![CI](https://github.com/RTorres1980/Financial-Market-ETL/actions/workflows/ci.yml/badge.svg)
+
 A config-driven ETL pipeline that pulls daily price history from Yahoo Finance, adds common indicators, and loads the results into CSV files and a SQLite database. It runs locally, in Docker, or on a schedule with GitHub Actions.
 
 ## What it does
